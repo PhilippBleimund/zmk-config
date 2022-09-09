@@ -1,0 +1,5 @@
+config SHIELD_DIOM36SP_LEFT
+	def_bool $(shields_list_contains,diom36sp_left)
+	
+config SHIELD_DIOM36SP_RIGHT
+	def_bool $(shields_list_contains,diom36sp_right)

@@ -1,0 +1,11 @@
+file_format: "1"
+id: diom36sp
+name: diom36sp
+type: shield
+url: https://github.com/DiomKBS/Diom-36SP
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - diom36sp_left
+  - diom36sp_right
