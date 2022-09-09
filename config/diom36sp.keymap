@@ -45,12 +45,12 @@
 	keymap {
 		compatible = "zmk,keymap";
 
-		base_layer {--
+		base_layer {
 			bindings = <
 				&kp LBKT   &kp COMMA  &kp DOT    &kp P      &kp Y      &kp F      &kp G      &kp C      &kp T      &kp Z
 				&mt APOS A &kp O      &kp E      &kp I      &kp U      &kp H      &kp D      &kp R      &kp N      &kp S
 				&kp SEMI   &kp Q      &kp J      &kp K      &kp X      &kp B      &kp M      &kp W      &kp V      &kp L
-				                      &thl MEDIA FUNKTION  &ht_hp LSHIFT SPACE &thk LCTRL SPECIAL  &lt ARROW ENTER  &kp BACKSPACE  &tlhk NUM LEFT_ALT
+				                      &thl MEDIA FUNKTION  &mt LSHIFT SPACE &tkhl LCTRL SPECIAL  &lt ARROW ENTER  &kp BACKSPACE  &tlhk NUM LEFT_ALT
 			>;
 		};
 		

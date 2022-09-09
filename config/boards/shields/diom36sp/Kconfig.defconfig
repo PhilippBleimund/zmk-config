@@ -10,7 +10,7 @@ endif
 
 if SHIELD_DIOM36SP_LEFT || SHIELD_DIOM36SP_RIGHT
 
-conifg ZMK_SPLIT
+config ZMK_SPLIT
 	default y
 	
 endif
